@@ -1,0 +1,64 @@
+body
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+}
+
+.item{
+    background-color: tomato;
+    margin:5px;
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+}
+.grid-template-columns-1{
+grid-template-columns:1fr;
+}
+.grid-template-columns-2{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.grid-template-columns-3{
+    grid-template-columns: 4fr;
+}
+
+
+.grid-template-rows{
+    grid-template-rows: 100px;
+}
+
+#visor{
+    
+    text-align: right;
+    resize: none;
+    font-size: 65px;
+    padding: 5px;
+    border-radius: 3px;
+  
+    
+}
+#section_Calculadora{
+ height: 570px;
+ width: 370px;
+ flex-direction: column;
+ background-color: cornflowerblue;
+
+}
+.botao{
+    border-radius: 20px;
+    width: 80px;
+    height:80px ;
+    font-size: 30px;
+}
+
+.botaoLimpaVisor{
+background-color:gray;
+}
+
+.botaoResultado{
+font-size: 30px;
+background-color:rgb(172, 204, 136);
+}

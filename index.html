@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora JS</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+   
+</head>
+
+<body>
+
+    <section id='section_Calculadora'>
+       
+            <div class="grid grid-template-columns-1 grid-template-rows">
+                <textarea id="visor" ></textarea>
+
+            </div>
+            <div class="grid grid-template-columns-2 ">
+                <button class="item botao"  onclick="cliqueBotaoNumero(this)" onclick="cliqueBotaoNumero(this)"">7</button>
+                <button class="item botao"  onclick="cliqueBotaoNumero(this)">8</button>
+                <button class="item botao"  onclick="cliqueBotaoNumero(this)"  onclick="cliqueBotaoNumero(this)">9</button>
+                <button class="item botao"  onclick="cliqueBotaoSinalOperacao(this)">/</button>
+            </div>
+            <div class="grid grid-template-columns-2 ">
+                <button class="item botao"  onclick="cliqueBotaoNumero(this)">4</button>
+                <button class="item botao"  onclick="cliqueBotaoNumero(this)">5</button>
+                <button class="item botao"  onclick="cliqueBotaoNumero(this)">6</button>
+                <button class="item botao"  onclick="cliqueBotaoSinalOperacao(this)">*</button>
+            </div>
+            <div class="grid grid-template-columns-2 ">
+                <button class="item botao"  onclick="cliqueBotaoNumero(this)">1</button>
+                <button class="item botao"  onclick="cliqueBotaoNumero(this)">2</button>
+                <button class="item botao"  onclick="cliqueBotaoNumero(this)">3</button>
+                <button class="item botao"  onclick="cliqueBotaoSinalOperacao(this)">-</button>
+            </div>
+            <div class="grid grid-template-columns-2 ">
+                <button class="item botao botaoLimpaVisor" onclick="limparTudo()">C</button>
+                <button class="item botao"  onclick="cliqueBotaoNumero(this)">0</button>
+                <button class="item botao"  onclick="cliqueBotaoNumero(this)">.</button>
+                <button class="item botao"  onclick="cliqueBotaoSinalOperacao(this)">+</button>
+            </div>
+
+            <div class="grid grid-template-columns-3 grid-template-rows">
+                <button class="item botaoResultado " onclick="cliqueBotaoResultado()">=</button>
+             
+            </div>
+
+
+    </section>
+   
+
+    <!---------------- JS -------------------->
+    <script src="script.js"></script>
+</body>
+
+</html>
