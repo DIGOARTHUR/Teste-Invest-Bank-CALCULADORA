@@ -1,6 +1,6 @@
 # JS Calculadora-Teste Invest Bank [Estágio de Dev. Web - 2021]  <img  alt="skills"  width="35" height="35" src="https://user-images.githubusercontent.com/59892368/109432650-ebc81a80-79ea-11eb-9a86-31a0f95a5695.png">
 
-> Este projeto se baseia não só em testar habilidades ligadas a montagem da página Web, mas no estudo, pesquisa e domínio de funcionalidades da mesma. Por meio do JavaScript manipulamos e damos vida a qualquer página, utlizando lógica, raciocínio e criatividade. 
+> Este projeto se baseia não só em testar habilidades ligadas a montagem da página Web, mas no estudo, pesquisa e domínio de funcionalidades da mesma. Por meio do JavaScript manipulamos e damos vida a qualquer página, utlizando: lógica, raciocínio e criatividade. 
 
 #### FERRAMENTAS:
 <p align="left">
