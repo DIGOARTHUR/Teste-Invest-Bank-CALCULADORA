@@ -5,11 +5,16 @@ var resultado = undefined;
 
 
 
+
+//CONCATENA VALORES E INSERE NA TELA POR MEIO DA FUNÇÃO "mostrarDadosVisor"
 function cliqueBotaoNumero(numeroBotao) {
     numero = numero.concat(numeroBotao.innerHTML)
     mostrarDadosVisor(numeroBotao.innerHTML);
 }
 
+
+
+// BOTÃO "=" 
 function cliqueBotaoResultado() {
     if (termosOp[0] != undefined && termosOp[1] != undefined && numero != "") {
         termosOp[2] = numero;
@@ -42,6 +47,7 @@ function cliqueBotaoResultado() {
 
 }
 
+// VERIFICA REPETIÇÃO DE SINAIS DE OPERAÇÃO
 function cliqueBotaoSinalOperacao(op) {
     if (termosOp[1] == undefined) {
         termosOp[0] = numero;
@@ -57,18 +63,21 @@ function cliqueBotaoSinalOperacao(op) {
 
 
 
-
+// O BOTÃO "C" SE UTILIZA DESTA FUNÇÃO
 function limparTudo() {
     limparMemoria()
     limparTela()
 }
 
 
+
+// ESTA FUNÇÃO POSSIBILITA OPERAÇÕES SEGUINTES
 function limparMemoria() {
     numero = "";
     termosOp = [undefined, undefined, undefined];
     resultado = undefined;
 }
+
 
 
 function limparTela() {
